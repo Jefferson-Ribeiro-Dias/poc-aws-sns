@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SnsController {
 
-    public static final String ARN_SNS_TOPIC = "arn:aws:sns:us-east-1:559111842637:sns-demo-topic";
-    public static final String ARN_SQS_QUEUE = "arn:aws:sqs:us-east-1:559111842637:sqs-demo-queue";
+    public static final String ARN_SNS_TOPIC = "sns-demo-topic";
+    public static final String ARN_SQS_QUEUE = "sqs-demo-queue";
 
     @Autowired
     private AmazonSNSClient amazonSNSClient;

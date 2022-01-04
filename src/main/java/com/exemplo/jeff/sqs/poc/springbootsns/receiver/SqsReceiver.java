@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 @Slf4j
 public class SqsReceiver {
-    public static final String SQS_QUEUE = "https://sqs.us-east-1.amazonaws.com/559111842637/sqs-demo-queue";
+    public static final String SQS_QUEUE = "sqs-demo-queue";
 
     @SqsListener(value = SQS_QUEUE,deletionPolicy = SqsMessageDeletionPolicy.ON_SUCCESS)
     public void receive(String message){

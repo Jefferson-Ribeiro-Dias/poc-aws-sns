@@ -13,5 +13,5 @@ cloud:
     stack:
       auto: false
     credentials:
-      access-key: xxxxxx
-      secret-key: xxxxxx
+      access-key: AKIAYELNJVNGQ64XO37E
+      secret-key: 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
